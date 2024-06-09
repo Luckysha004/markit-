@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+    
+</head>
+<body>
+
+                                    <!-- navbar -->
+
+    <div>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand ml-5">
+              <a class="navbar-item" href="#"><strong>Markit</strong></a>
+              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+            </div>
+          
+            <div id="navbarBasicExample" class="navbar-menu">
+              <div class="navbar-start">
+                <a href="index.html" class="navbar-item">Home</a>
+                <a class="navbar-item">Documentation</a>
+                <input class="input mr-5 ml-5" type="search" placeholder="Search... ">
+              </div>
+          
+              <div class="navbar-end mr-5">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                      <a class="navbar-link"> <i class="fa-solid fa-user fa-2x"></i> </a>
+                        <div class="navbar-dropdown">
+                        <a href="login.html" class="navbar-item">Login</a>
+                        <a href="signup.html" class="navbar-item">Sign Up</a>
+                      </div>
+                    </div>
+                    <a href="wishlist.html" class="navbar-item mr-3"><i class="fa-regular fa-heart fa-2x"></i></a>
+                    <a href="cart.html" class="navbar-item mr-3"><i class="fa-brands fa-opencart fa-2x"></i></a>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+   
+      <!-- carousel -->
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <a href="https://www.purplle.com/search?q=nybae"><img class="carousel-img" src="carousel3.webp" style="width:100%"></a>
+        </div>
+
+        <div class="mySlides fade">
+          <a href="https://www.flipkart.com/6bo/b5g/~cs-ckhu64dk3p/pr?sid=6bo,b5g&collection-tab-name=Intel+Core+Ultra&pageCriteria=default&OCMPID=Laptops_Intelcoreultra"><img class="carousel-img" src="carousel.webp" style="width:100%"></a>
+        </div>
+        
+        <div class="mySlides fade">
+          <a href="https://www.flipkart.com/realme-c65-5g-store?param=27849"><img class="carousel-img" src="carousel2.webp" style="width:100%"></a>
+        </div>
+        
+        <div class="mySlides fade">
+          <a href="https://www.purplle.com/promo/buy-more-save-more-makeup-combo-kits"><img class="carousel-img" src="carousel4.webp" style="width:100%"></a>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+
+        
+    
+       
+    <!-- card -->
+
+        <div class="card gadgets-card">
+          <button onclick="prev()" class="card-arrow"> <i class="fa-solid fa-arrow-left fa-2x" style="color: #63E6BE;"></i></button>
+          <div class="child-card card-show fade">
+            <a href=""><img class="card-img" src="laptop.png" alt=""></a>
+            <h1>Laptops</h1>
+          </div>
+          <div class="child-card card-show fade">
+            <a href=""><img class="card-img" src="watch.png" alt="">
+            </a>
+            <h1>Smart Watches</h1>
+          </div>
+          <div class="child-card card-show fade">
+            <a href=""><img class="card-img" src="mobile.webp" alt=""></a>
+            <h1>Mobiles</h1>
+          </div>
+          <div class="child-card card-show fade">
+            <a href=""><img class="card-img" src="speaker.png" alt=""></a>
+            <h1>Home Audio</h1>
+          </div>
+          <div class="child-card card-show fade" >
+            <a href="headphones.html"><img class="card-img" src="earbud.png" alt=""></a>
+            <h1>Headphones</h1>
+          </div>
+          <div class="child-card card-hide fade" >
+            <a href=""><img class="card-img" src="tv.jpg" alt=""></a>
+            <h1>Televisons</h1>
+          </div>
+          <div class="child-card card-hide fade" >
+            <a href=""><img class="card-img" src="tab.png" alt=""></a>
+            <h1>Tablets</h1>
+          </div>
+          <div class="child-card card-hide fade" >
+            <a href=""><img class="card-img" src="Gaminglap.png" alt=""></a>
+            <h1>Gaming Laptops</h1>
+          </div>
+          <div class="child-card card-hide fade" >
+            <a href=""><img class="card-img" src="camera.png" alt=""></a>
+            <h1>cameras</h1>
+          </div>
+          <div class="child-card card-hide fade" >
+            <a href=""><img class="card-img" src="Computer-Accessories..png" alt=""></a>
+            <h1>Computer Accessories</h1>
+          </div>
+          <button onclick="next()" class="card-arrow"><i class="fa-solid fa-arrow-right fa-2x " style="color: #63E6BE;"></i></button>
+        </div>
+ 
+        <!-- cloth card -->
+
+        <div class="cloth-card">
+          <div class="card dress-card"> 
+            <div >
+              <div class="card-order ">
+                <div class="card-products">
+                  <img class="dress-img" src="kidsDress/mens.png" alt="">
+                  <h2>Men's clothing</h2>
+                </div>
+                <div class="card-products">
+                  <img class="dress-img" src="kidsDress/women.png" alt="">
+                  <h2>Women's clothing</h2>
+                </div>
+              </div>
+              <div class="card-order">
+                <div class="card-products">
+                  <img class="dress-img" src="kidsDress/handbags.png" alt="">
+                  <h2>Hand Bags</h2>
+                </div>
+                <div class="card-products">
+                  <img class="dress-img" src="kidsDress/kids.png" alt="">
+                  <h2>Kid's Fashion</h2>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="card dress-card">
+            <h1 class="card-text"><strong>Continue shopping for </strong></h1>
+            <div >
+              <div class="card-order ">
+                <div class="card-products">
+                  <img class="dress2-img" src="kidsDress/girlkid.png" alt="">
+                </div>
+                <div class="card-products">
+                  <img class="dress2-img" src="kidsDress/boyshoe.png" alt="">
+                </div>
+              </div>
+              <div class="card-order">
+                <div class="card-products">
+                  <img class="dress2-img" src="kidsDress/girlshoes.png" alt="">
+                </div>
+                <div class="card-products">
+                  <img class="dress2-img" src="kidsDress/kidssection.png" alt="">
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="card dress-card">
+            <h1 class="card-text"><strong>Keep shopping for </strong></h1>
+            <div >
+              <div class="card-order ">
+                <div class="card-products">
+                  <img class="dress2-img" src="kidsDress/causalwear.png" alt="">
+                </div>
+                <div class="card-products">
+                  <img class="dress2-img" src="kidsDress/ethnicwear.png" alt="">
+                </div>
+              </div>
+              <div class="card-order">
+                <div class="card-products">
+                  <img class="dress2-img" src="kidsDress/westerwear.png" alt="">
+                </div>
+                <div class="card-products">
+                  <img class="dress2-img" src="kidsDress/formalwear.png" alt="">
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="offer-card">
+            <div class=" card child-offer-card">
+              
+              <div class="card-order">
+                <div class="card-products">
+                  <img class="deal-img" src="kidsDress/dealoftheday.jpg" alt="">
+                  <h2>Deal of the day</h2>
+                </div>
+                <div class="card-products">
+                  <img class="deal-img" src="kidsDress/trending.jpg" alt="">
+                  <h2>Lightening Deal</h2>
+                </div>
+              </div>
+
+            </div>
+            <div class=" child2-offer-card">
+              <iframe width="300" height="230" src="https://www.youtube.com/embed/FaR4WWhVcbE?autoplay=1&playlist=FaR4WWhVcbE" title="Amazon Product Video Example | Luggage Case, Leather Purse, Jewelry, Electronics Commercial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- beauty product -->
+        
+        <div class="card beauty-card">
+          <button onclick="beautyProductPrev()" class="card-arrow"> <i class="fa-solid fa-arrow-left fa-2x" style="color: #63E6BE;"></i></button>
+          <div class="child2-card card-show fade">
+            <a href=""><img class="card-img" src="beautyProduct/conditioner.avif" alt=""></a>
+            <h1 class="beauty-text">Conditioners</h1>
+          </div>
+          <div class="child2-card card-show fade">
+            <a href=""><img class="card-img" src="beautyProduct/bodylotion.avif" alt="">
+            </a>
+            <h1 class="beauty-text">Body Lotions</h1>
+          </div>
+          <div class="child2-card card-show fade">
+            <a href=""><img class="card-img" src="beautyProduct/combos.avif" alt=""></a>
+            <h1 class="beauty-text">Combos</h1>
+          </div>
+          <div class="child2-card card-show fade">
+            <a href=""><img class="card-img" src="beautyProduct/facewash.avif" alt=""></a>
+            <h1 class="beauty-text">Face Wash</h1>
+          </div>
+          <div class="child2-card card-show fade" >
+            <a href="headphones.html"><img class="card-img" src="beautyProduct/sunscreen.avif" alt=""></a>
+            <h1 class="beauty-text">Sunscreen</h1>
+          </div>
+          <div class="child2-card card-hide fade" >
+            <a href=""><img class="card-img" src="beautyProduct/showergel.avif" alt=""></a>
+            <h1 class="beauty-text">Shower Gels</h1>
+          </div>
+          <div class="child2-card card-hide fade" >
+            <a href=""><img class="card-img" src="beautyProduct/shampoos.avif" alt=""></a>
+            <h1 class="beauty-text">Shampoos</h1>
+          </div>
+          <div class="child2-card card-hide fade" >
+            <a href=""><img class="card-img" src="beautyProduct/moituriser.avif" alt=""></a>
+            <h1 class="beauty-text">Moisturiser</h1>
+          </div>
+          <div class="child2-card card-hide fade" >
+            <a href=""><img class="card-img" src="beautyProduct/hairgrowth.avif" alt=""></a>
+            <h1 class="beauty-text">Hair Growth & Repair</h1>
+          </div>
+          <div class="child2-card card-hide fade" >
+            <a href=""><img class="card-img" src="beautyProduct/sports&fitness.avif" alt=""></a>
+            <h1 class="beauty-text">Sports & Fitness</h1>
+          </div>
+          <button onclick="beautyProductNext()" class="card-arrow"><i class="fa-solid fa-arrow-right fa-2x " style="color: #63E6BE;"></i></button>
+        </div>
+
+
+        <!-- user offer -->
+ 
+        <div class="cloth-card">
+          <div class="card dress-card"> 
+            <h1 class="card-text"><strong>Top searches</strong></h1>
+            <div >
+              <div class="card-order ">
+                <div class="card-products">
+                  <img class="dress-img" src="beautyProduct/skintone.avif" alt="">
+                  <h2>Even skin Tone</h2>
+                </div>
+                <div class="card-products">
+                  <img class="dress-img" src="beautyProduct/skinbrightening.avif" alt="">
+                  <h2>Skin Brightening</h2>
+                </div>
+              </div>
+              <div class="card-order">
+                <div class="card-products">
+                  <img class="dress-img" src="beautyProduct/youthfulglow.avif" alt="">
+                  <h2>Youthful Glow</h2>
+                </div>
+                <div class="card-products">
+                  <img class="dress-img" src="beautyProduct/cleanpores.avif" alt="">
+                  <h2>Clean Pores</h2>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="card dress-card">
+            <h1 class="card-text"><strong>Explore more...</strong></h1>
+            <div >
+              <div class="card-order ">
+                <div class="card-products">
+                  <img class="dress2-img" src="beautyProduct/puma.avif" alt="">
+                </div>
+                <div class="card-products">
+                  <img class="dress2-img" src="beautyProduct/yellowchimes.avif" alt="">
+                </div>
+              </div>
+              <div class="card-order">
+                <div class="card-products">
+                  <img class="dress2-img" src="beautyProduct/pipabella.avif" alt="">
+                </div>
+                <div class="card-products">
+                  <img class="dress2-img" src="beautyProduct/titans.avif" alt="">
+                </div>
+              </div>
+            </div>
+
+          </div>
+          
+          <div class="card dress-card">
+            <h1 class="card-text"><strong>Budget Buy </strong></h1>
+            <div >
+              <div class="card-order ">
+                <div class="card-products">
+                  <img class="dress2-img" src="beautyProduct/menbeardoil.avif" alt="">
+                </div>
+                <div class="card-products">
+                  <img class="dress2-img" src="beautyProduct/mendaycream.avif" alt="">
+                </div>
+              </div>
+              <div class="card-order">
+                <div class="card-products">
+                  <img class="dress2-img" src="beautyProduct/menshampoo.avif" alt="">
+                </div>
+                <div class="card-products">
+                  <img class="dress2-img" src="beautyProduct/menfacewash.avif" alt="">
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="offer-card">
+            <div class=" card child-offer-card">
+              
+              <div class="card-order">
+                <div class="card-products">
+                  <img class="deal-img" src="kidsDress/dealoftheday.jpg" alt="">
+                  <h2>Deal of the day</h2>
+                </div>
+                <div class="card-products">
+                  <img class="deal-img" src="kidsDress/trending.jpg" alt="">
+                  <h2>Lightening Deal</h2>
+                </div>
+              </div>
+
+            </div>
+            <div class=" child2-offer-card">
+                <iframe width="300" height="230" src="https://www.youtube.com/embed/9-jve13EcF8?autoplay=1&loop=1" title="🌟 Introducing: I-BEAUTY by Nykaa🌟" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div id="toast" class="toast"></div>
+    <script src="index.js"></script>
+
+</body>
+</html>
